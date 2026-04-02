@@ -1,8 +1,7 @@
-import React from "react";
-import { useTranslations } from "next-intl"; // Import next-intl
+import { useTranslations } from "next-intl";
 
 export default function RightSection() {
-  const t = useTranslations("Hero"); // Panggil namespace "Hero"
+  const t = useTranslations("Hero");
 
   return (
     <div className="flex flex-col justify-center items-start lg:pl-8 space-y-6">

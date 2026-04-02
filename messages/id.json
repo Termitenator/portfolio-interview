@@ -12,5 +12,10 @@
     "title": "Mengapa memilih saya untuk proyek Anda berikutnya?",
     "description1": "Saya telah bekerja dengan berbagai latar belakang klien dan berbagai jenis produk sebagai software engineer (frontend) atau desainer UI. Saya membantu mereka menyelesaikan masalah bisnis dari sisi teknologi.",
     "description2": "Saya memiliki prinsip yaitu \"tetap sederhana dan tetap rendah hati\". Saya percaya bahwa kesederhanaan menyembunyikan kompleksitas dan ketelitian yang luar biasa. Saya melihat setiap proyek sebagai proses penyelesaian masalah. Sekarang saatnya menyelesaikan masalah Anda secara mendetail, mendalam, dan tentu saja dengan kesederhanaan."
+  },
+  "Project": {
+    "title": "PROYEK",
+    "sub_title": "Proyek Pilihan",
+    "btn": "Lihat Proyek"
   }
 }

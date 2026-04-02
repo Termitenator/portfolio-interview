@@ -9,7 +9,6 @@ export default function Logo() {
         width={100}
         height={100}
         priority
-        // Hapus logika invert di bawah ini, sisakan class dasarnya saja
         className="w-auto h-10 object-contain transition-all duration-300"
       />
     </Link>

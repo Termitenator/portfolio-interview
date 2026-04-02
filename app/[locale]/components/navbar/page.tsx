@@ -5,12 +5,10 @@ import NavLink from "./component/NavLink";
 import LanguageSwitcher from "./component/LanguageSwitcher";
 import { links } from "@/data/navbar";
 import { useNavbar } from "@/hooks/useNavbar";
-import { useLocale } from "next-intl"; // 1. Tambahkan import ini di atas!
+import { useLocale } from "next-intl";
 
 export default function Navbar() {
   const { isScrolled, isOpen, setIsOpen, currentLink } = useNavbar({ links });
-
-  // Mengambil bahasa secara langsung di Navbar
   const locale = useLocale();
 
   return (
@@ -28,8 +26,7 @@ export default function Navbar() {
             <Logo />
           </div>
 
-          <div className="flex-none">
-            {/* 2. Ubah variabel 'language' menjadi 'locale.toUpperCase()' */}
+          <div className="flex-none cursor-pointer">
             <NavLink language={locale.toUpperCase() as "EN" | "ID"} />
           </div>
 
@@ -76,7 +73,7 @@ export default function Navbar() {
         className={`fixed inset-0 z-40 bg-white text-black transform transition-transform duration-500 ease-in-out pt-[88px] ${
           isOpen ? "translate-y-0" : "-translate-y-full"
         } flex flex-col md:hidden`}>
-        <div className="flex flex-col px-6 py-4 space-y-6 overflow-y-auto h-full">
+        <div className="flex flex-col px-6 py-4 space-y-6 overflow-y-auto h-full cursor-pointer">
           {currentLink.map((link) => (
             <Link
               key={link.name}

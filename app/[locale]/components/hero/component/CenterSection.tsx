@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 export default function CenterSection() {
   return (
@@ -10,7 +9,6 @@ export default function CenterSection() {
           src="/assets/Pande2.png"
           alt="Pande Profile"
           fill
-          // Di sini kita menambahkan class drop-shadow-lg
           className="object-contain object-bottom drop-shadow-lg"
           priority
           quality={100}

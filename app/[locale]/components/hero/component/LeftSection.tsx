@@ -1,4 +1,3 @@
-import React from "react";
 import { FaLinkedin, FaGithub, FaDribbble } from "react-icons/fa";
 import { useTranslations } from "next-intl";
 
