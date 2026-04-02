@@ -6,5 +6,11 @@
     "description": "I specialize in building modern web interfaces using technologies like Next.js and Tailwind CSS. I focus on creating responsive, accessible, and maintainable user interfaces while ensuring smooth user experience and clean code structure across every project.",
     "reachMe": "Reach Me",
     "downloadCV": "Download CV"
+  },
+  "About": {
+    "badge": "About",
+    "title": "Why hire me for your next project?",
+    "description1": "I worked with a various background of clients and different types of products as a software engineer (frontend) or UI designer. I help them to solve their business problems on the technology end.",
+    "description2": "I have a principle that is \"stay simple and stay humble\". I believe simplicity hides a great deal of complexity and thoroughness. I see every project as a process of solving a problem. Now it's time to solve your problems in detail, in depth, and of course with simplicity."
   }
 }
