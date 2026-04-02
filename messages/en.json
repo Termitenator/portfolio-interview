@@ -17,5 +17,12 @@
     "title": "WORK",
     "sub_title": "Selected Projects",
     "btn": "View Project"
+  },
+  "Contact": {
+    "title": "Let’s work together",
+    "desc": "Feel free to reach out for collaboration.",
+    "btn": "Contact Me",
+    "subject": "Let's Work Together",
+    "body": "Hi Pande, I want to discuss a project with you."
   }
 }

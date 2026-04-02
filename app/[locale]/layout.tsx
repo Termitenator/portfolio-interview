@@ -1,11 +1,11 @@
-// src/app/[locale]/layout.tsx
 import type { Metadata } from "next";
 import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server"; // ← tambah import ini
-import { notFound } from "next/navigation"; // ← tambah import ini
+import { getMessages } from "next-intl/server";
+import { notFound } from "next/navigation";
 import { Poppins } from "next/font/google";
 import Navbar from "./components/navbar/page";
+import Footer from "./components/footer/page";
 import { routing } from "@/i18n/routing";
 
 export const metadata: Metadata = {
@@ -39,6 +39,7 @@ export default async function RootLayout({ children, params }: Props) {
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

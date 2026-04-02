@@ -17,5 +17,12 @@
     "title": "PROYEK",
     "sub_title": "Proyek Pilihan",
     "btn": "Lihat Proyek"
+  },
+  "Contact": {
+    "title": "Mari bekerja sama",
+    "desc": "Silakan hubungi saya untuk kolaborasi.",
+    "btn": "Hubungi Saya",
+    "subject": "Mari Bekerja Sama",
+    "body": "Halo Pande, saya ingin mendiskusikan sebuah proyek dengan Anda."
   }
 }
