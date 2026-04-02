@@ -1,17 +1,17 @@
 {
   "Hero": {
     "greeting": "Halo, saya",
-    "titleLine1": "Frontend Developer yang merancang",
-    "titleLine2": "antarmuka terukur dan berfokus pada pengguna",
-    "description": "Saya berspesialisasi dalam membangun antarmuka web modern menggunakan teknologi seperti Next.js dan Tailwind CSS. Saya fokus pada pembuatan antarmuka pengguna yang responsif, dapat diakses, dan mudah dipelihara sekaligus memastikan pengalaman pengguna yang lancar dan struktur kode yang bersih di setiap proyek.",
+    "titleLine1": "Frontend Developer yang membangun",
+    "titleLine2": "antarmuka modern dengan alur data yang terstruktur",
+    "description": "Saya mengembangkan antarmuka web production-ready menggunakan Next.js, TypeScript, dan Nuxt.js. Berpengalaman dalam integrasi API serta pengelolaan state untuk memastikan alur data yang konsisten, performa optimal, dan pengalaman pengguna yang baik.",
     "reachMe": "Hubungi Saya",
     "downloadCV": "Unduh CV"
   },
   "About": {
     "badge": "Tentang",
-    "title": "Mengapa memilih saya untuk proyek Anda berikutnya?",
-    "description1": "Saya telah bekerja dengan berbagai latar belakang klien dan berbagai jenis produk sebagai software engineer (frontend) atau desainer UI. Saya membantu mereka menyelesaikan masalah bisnis dari sisi teknologi.",
-    "description2": "Saya memiliki prinsip yaitu \"tetap sederhana dan tetap rendah hati\". Saya percaya bahwa kesederhanaan menyembunyikan kompleksitas dan ketelitian yang luar biasa. Saya melihat setiap proyek sebagai proses penyelesaian masalah. Sekarang saatnya menyelesaikan masalah Anda secara mendetail, mendalam, dan tentu saja dengan kesederhanaan."
+    "title": "Kenapa saya relevan untuk proyek Anda?",
+    "description1": "Saya fokus pada pengembangan frontend yang tidak hanya terlihat baik, tetapi juga terstruktur dengan baik. Saya telah mengerjakan integrasi API, pengelolaan state, serta implementasi autentikasi untuk memastikan aplikasi berjalan stabil dan konsisten.",
+    "description2": "Pendekatan saya berfokus pada kualitas implementasi: komponen yang reusable, alur data yang jelas, serta kode yang mudah dikembangkan. Saya tidak mengejar kompleksitas, tetapi solusi yang efisien dan tepat guna."
   },
   "Project": {
     "title": "PROYEK",
@@ -19,10 +19,12 @@
     "btn": "Lihat Proyek"
   },
   "Contact": {
-    "title": "Mari bekerja sama",
-    "desc": "Silakan hubungi saya untuk kolaborasi.",
-    "btn": "Hubungi Saya",
-    "subject": "Mari Bekerja Sama",
+    "title": "Mari bangun sesuatu yang bermakna",
+    "desc": "Saya terbuka untuk freelance dan kolaborasi. Jika Anda memiliki ide atau proyek, mari kita diskusikan.",
+    "btn": "Mulai Diskusi",
+    "emailLabel": "Email",
+    "availability": "Tersedia untuk freelance / full-time",
+    "subject": "Diskusi Proyek",
     "body": "Halo Pande, saya ingin mendiskusikan sebuah proyek dengan Anda."
   }
 }

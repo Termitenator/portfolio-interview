@@ -1,17 +1,17 @@
 {
   "Hero": {
     "greeting": "Hi, I am",
-    "titleLine1": "Frontend Developer crafting",
-    "titleLine2": "scalable and user-focused interfaces",
-    "description": "I specialize in building modern web interfaces using technologies like Next.js and Tailwind CSS. I focus on creating responsive, accessible, and maintainable user interfaces while ensuring smooth user experience and clean code structure across every project.",
+    "titleLine1": "Frontend Developer building",
+    "titleLine2": "modern interfaces with structured data flow",
+    "description": "I develop production-ready web interfaces using Next.js, TypeScript, and Nuxt.js. Experienced in API integration and state management to ensure consistent data flow, optimal performance, and a smooth user experience.",
     "reachMe": "Reach Me",
     "downloadCV": "Download CV"
   },
   "About": {
     "badge": "About",
-    "title": "Why hire me for your next project?",
-    "description1": "I worked with a various background of clients and different types of products as a software engineer (frontend) or UI designer. I help them to solve their business problems on the technology end.",
-    "description2": "I have a principle that is \"stay simple and stay humble\". I believe simplicity hides a great deal of complexity and thoroughness. I see every project as a process of solving a problem. Now it's time to solve your problems in detail, in depth, and of course with simplicity."
+    "title": "Why am I a strong fit for your project?",
+    "description1": "I focus on frontend development that is not only visually appealing, but also well-structured. I have worked on API integration, state management, and authentication implementation to ensure applications run reliably and consistently.",
+    "description2": "My approach emphasizes implementation quality: reusable components, clear data flow, and maintainable code. I don’t chase complexity — I deliver efficient and practical solutions."
   },
   "Project": {
     "title": "WORK",
@@ -19,10 +19,12 @@
     "btn": "View Project"
   },
   "Contact": {
-    "title": "Let’s work together",
-    "desc": "Feel free to reach out for collaboration.",
-    "btn": "Contact Me",
-    "subject": "Let's Work Together",
-    "body": "Hi Pande, I want to discuss a project with you."
+    "title": "Let’s build something meaningful",
+    "desc": "I’m open to freelance and collaboration opportunities. If you have an idea or project in mind, let’s discuss it.",
+    "btn": "Start a Conversation",
+    "emailLabel": "Email",
+    "availability": "Available for freelance / full-time opportunities",
+    "subject": "Project Discussion",
+    "body": "Hi Pande, I’d like to discuss a project with you."
   }
 }
