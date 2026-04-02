@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className="w-full bg-[#2f3033] text-gray-400 p-4 lg:px-20 ">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:justify-between gap-6">
-          <Link href="/" className="flex items-center gap-0.5">
+          <Link href="#hero" className="flex items-center gap-0.5">
             <Image
               src="/icon/logos.png"
               alt="logo"
@@ -36,14 +36,14 @@ export default function Footer() {
           </nav>
           <div className="flex items-center justify-center gap-5 text-lg">
             <a
-              href="https://github.com/"
+              href="https://github.com/Termitenator"
               target="_blank"
               className="hover:text-white transition">
               <FaGithub />
             </a>
 
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/pande-gede-satwika-dharma-450a4b262/"
               target="_blank"
               className="hover:text-white transition">
               <FaLinkedin />

@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function RightSection() {
   const t = useTranslations("Hero");
@@ -15,9 +16,11 @@ export default function RightSection() {
       </p>
 
       <div className="flex items-center space-x-6 pt-4">
-        <button className="px-8 py-3 bg-[#e6864a] text-white rounded font-medium shadow-md hover:bg-[#d57841] transition-all">
-          {t("reachMe")}
-        </button>
+        <Link href="#contact">
+          <span className="inline-block px-8 py-3 bg-[#e6864a] text-white rounded font-medium shadow-md hover:bg-[#d57841] transition-all">
+            {t("reachMe")}
+          </span>
+        </Link>
 
         <button className="flex items-center space-x-2 text-gray-600 hover:text-[#3a4768] font-medium transition-colors group">
           <svg

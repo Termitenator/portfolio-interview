@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaDribbble } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { useTranslations } from "next-intl";
 
 export default function LeftSection() {
@@ -16,22 +16,16 @@ export default function LeftSection() {
 
       <div className="flex items-center space-x-6 text-[#3a4768] mt-8">
         <a
-          href="#"
+          href="https://www.linkedin.com/in/pande-gede-satwika-dharma-450a4b262/"
           className="hover:text-orange-500 transition-colors"
           aria-label="LinkedIn">
           <FaLinkedin size={26} />
         </a>
         <a
-          href="#"
+          href="https://github.com/Termitenator"
           className="hover:text-orange-500 transition-colors"
           aria-label="GitHub">
           <FaGithub size={26} />
-        </a>
-        <a
-          href="#"
-          className="hover:text-orange-500 transition-colors"
-          aria-label="Dribbble">
-          <FaDribbble size={26} />
         </a>
       </div>
     </div>
