@@ -15,7 +15,7 @@ export const projects: Record<"en" | "id", CardProjectProps[]> = {
       description:
         "Real-time crypto analytics platform that analyzes social data and market sentiment to identify potential trading opportunities.",
       tech: ["Next.js", "Tailwind", "API Integration"],
-      link: "#",
+      link: "https://aubot.tech/",
       image: "/assets/project/Aubot.png",
     },
     {
@@ -23,7 +23,7 @@ export const projects: Record<"en" | "id", CardProjectProps[]> = {
       description:
         "Booking platform for searching ferry routes, selecting schedules, and managing passenger data with a clean and responsive interface.",
       tech: ["Next.js", "Tailwind", "API Integration"],
-      link: "#",
+      link: "https://booking.dreambeach-lembongan.com/en",
       image: "/assets/project/Reservation.png",
     },
     {
@@ -31,7 +31,7 @@ export const projects: Record<"en" | "id", CardProjectProps[]> = {
       description:
         "Responsive digital wedding invitation website with personalized guest access and smooth navigation across devices.",
       tech: ["Next.js", "Tailwind"],
-      link: "#",
+      link: "https://graphicwedding.vercel.app/puspayoga&trisna&wedding-invitation?to=Pande",
       image: "/assets/project/Wedding.png",
     },
   ],
@@ -50,7 +50,7 @@ export const projects: Record<"en" | "id", CardProjectProps[]> = {
       description:
         "Platform analitik kripto waktu nyata yang menganalisis data sosial dan sentimen pasar untuk mengidentifikasi peluang trading.",
       tech: ["Next.js", "Tailwind", "API Integration"],
-      link: "#",
+      link: "https://aubot.tech/",
       image: "/assets/project/Aubot.png",
     },
     {
@@ -58,7 +58,7 @@ export const projects: Record<"en" | "id", CardProjectProps[]> = {
       description:
         "Platform pemesanan untuk mencari rute feri, memilih jadwal, dan mengelola data penumpang dengan UI yang bersih dan responsif.",
       tech: ["Next.js", "Tailwind", "API Integration"],
-      link: "#",
+      link: "https://booking.dreambeach-lembongan.com/en",
       image: "/assets/project/Reservation.png",
     },
     {
@@ -66,7 +66,7 @@ export const projects: Record<"en" | "id", CardProjectProps[]> = {
       description:
         "Website undangan pernikahan digital responsif dengan akses tamu personal dan navigasi yang halus di semua perangkat.",
       tech: ["Next.js", "Tailwind"],
-      link: "#",
+      link: "https://graphicwedding.vercel.app/puspayoga&trisna&wedding-invitation?to=Pande",
       image: "/assets/project/Wedding.png",
     },
   ],
