@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
+import { useLocale } from "next-intl"; // Import dari next-intl
 
+// Pastikan tipe ini sesuai dengan struktur data `links` kamu
 type Language = "EN" | "ID";
 
 interface UseNavbarProps<T> {
@@ -8,8 +10,10 @@ interface UseNavbarProps<T> {
 
 export function useNavbar<T>({ links }: UseNavbarProps<T>) {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [language, setLanguage] = useState<Language>("EN");
   const [isOpen, setIsOpen] = useState(false);
+
+  // Ambil locale yang sedang aktif dari next-intl (biasanya 'en' atau 'id')
+  const locale = useLocale();
 
   // Handle scroll state
   useEffect(() => {
@@ -30,14 +34,16 @@ export function useNavbar<T>({ links }: UseNavbarProps<T>) {
     };
   }, [isOpen]);
 
-  const currentLink = links[language];
+  // Karena next-intl biasanya pakai huruf kecil ('en', 'id'),
+  // kita ubah jadi huruf besar ('EN', 'ID') agar cocok dengan key di object `links`
+  const currentLanguageKey = locale.toUpperCase() as Language;
+  const currentLink = links[currentLanguageKey];
 
   return {
     isScrolled,
-    language,
-    setLanguage,
     isOpen,
     setIsOpen,
     currentLink,
+    // language dan setLanguage kita hapus dari return
   };
 }

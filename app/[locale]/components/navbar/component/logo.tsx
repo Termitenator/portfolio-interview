@@ -6,11 +6,11 @@ export default function Logo() {
       <Image
         src="/icon/logos.png"
         alt="logo"
-        width={40}
-        height={40}
+        width={100}
+        height={100}
         priority
         // Hapus logika invert di bawah ini, sisakan class dasarnya saja
-        className="w-auto h-8 object-contain transition-all duration-300"
+        className="w-auto h-10 object-contain transition-all duration-300"
       />
     </Link>
   );

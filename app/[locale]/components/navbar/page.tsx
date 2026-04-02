@@ -5,10 +5,13 @@ import NavLink from "./component/NavLink";
 import LanguageSwitcher from "./component/LanguageSwitcher";
 import { links } from "@/data/navbar";
 import { useNavbar } from "@/hooks/useNavbar";
+import { useLocale } from "next-intl"; // 1. Tambahkan import ini di atas!
 
 export default function Navbar() {
-  const { isScrolled, language, setLanguage, isOpen, setIsOpen, currentLink } =
-    useNavbar({ links });
+  const { isScrolled, isOpen, setIsOpen, currentLink } = useNavbar({ links });
+
+  // Mengambil bahasa secara langsung di Navbar
+  const locale = useLocale();
 
   return (
     <>
@@ -26,12 +29,13 @@ export default function Navbar() {
           </div>
 
           <div className="flex-none">
-            <NavLink language={language} />
+            {/* 2. Ubah variabel 'language' menjadi 'locale.toUpperCase()' */}
+            <NavLink language={locale.toUpperCase() as "EN" | "ID"} />
           </div>
 
           <div className="flex-1 flex justify-end items-center">
             <div className="hidden md:block">
-              <LanguageSwitcher language={language} setLanguage={setLanguage} />
+              <LanguageSwitcher />
             </div>
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -82,14 +86,8 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-
-          <div className="w-full h-[1px] bg-black/10 my-2"></div>
-
           <div className="pt-2">
-            <span className="text-sm font-semibold uppercase tracking-widest text-gray-400 mb-4 block">
-              {language === "EN" ? "Select Language" : "Pilih Bahasa"}
-            </span>
-            <LanguageSwitcher language={language} setLanguage={setLanguage} />
+            <LanguageSwitcher />
           </div>
         </div>
       </div>

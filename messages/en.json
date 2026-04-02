@@ -1,5 +1,10 @@
 {
-  "HomePage": {
-    "title": "Hello word!"
+  "Hero": {
+    "greeting": "Hi, I am",
+    "titleLine1": "Frontend Developer crafting",
+    "titleLine2": "scalable and user-focused interfaces",
+    "description": "I specialize in building modern web interfaces using technologies like Next.js and Tailwind CSS. I focus on creating responsive, accessible, and maintainable user interfaces while ensuring smooth user experience and clean code structure across every project.",
+    "reachMe": "Reach Me",
+    "downloadCV": "Download CV"
   }
 }

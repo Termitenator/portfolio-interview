@@ -1,0 +1,10 @@
+{
+  "Hero": {
+    "greeting": "Halo, saya",
+    "titleLine1": "Frontend Developer yang merancang",
+    "titleLine2": "antarmuka terukur dan berfokus pada pengguna",
+    "description": "Saya berspesialisasi dalam membangun antarmuka web modern menggunakan teknologi seperti Next.js dan Tailwind CSS. Saya fokus pada pembuatan antarmuka pengguna yang responsif, dapat diakses, dan mudah dipelihara sekaligus memastikan pengalaman pengguna yang lancar dan struktur kode yang bersih di setiap proyek.",
+    "reachMe": "Hubungi Saya",
+    "downloadCV": "Unduh CV"
+  }
+}
