@@ -1,15 +1,23 @@
-import Hero from "./components/hero/page";
-import AboutSection from "./components/about/page";
-import ProjectSection from "./components/project/page";
-import Contact from "./components/contact/page";
+import Hero from "./components/hero/hero";
+import AboutSection from "./components/about/about";
+import ProjectSection from "./components/project/project";
+import Contact from "./components/contact/contact";
 
 export default function Home() {
   return (
-    <section>
-      <Hero />
-      <AboutSection />
-      <ProjectSection />
-      <Contact />
-    </section>
+    <div>
+      <section id="home">
+        <Hero />
+      </section>
+      <section id="about">
+        <AboutSection />
+      </section>
+      <section id="project">
+        <ProjectSection />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+    </div>
   );
 }

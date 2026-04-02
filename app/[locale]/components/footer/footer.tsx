@@ -15,10 +15,12 @@ export default function Footer() {
           <Link href="/" className="flex items-center gap-0.5">
             <Image
               src="/icon/logos.png"
-              alt="Pande Logo"
+              alt="logo"
               width={100}
-              height={100}
-              className="object-contain brightness-110"
+              height={40}
+              priority
+              style={{ width: "auto", height: "40px" }}
+              className="object-contain brightness-110 transition-all duration-300"
             />
             <span className="text-white font-semibold text-base">Pande</span>
           </Link>
