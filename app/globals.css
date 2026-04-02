@@ -19,8 +19,15 @@
   }
 }
 
+@layer base {
+  body {
+    @apply font-sans;
+    background-color: #ffffff;
+  }
+}
+
 body {
-  background: var(--background);
+  background: #ffffff;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
